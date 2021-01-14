@@ -136,6 +136,17 @@ p {
 
 .top-left ul {
   display: flex;
+  align-items: center;
+}
+
+.top-left ul::before {
+  content: "";
+  height: 1px;
+  width: 60px;
+  display: block;
+  background: #303030;
+  flex-shrink: 0;
+  margin-right: 40px;
 }
 
 .top-left ul li:not(last-child) {
@@ -148,6 +159,7 @@ p {
   padding-right: 525;
   padding-bottom: 206px;
   padding-left: 100px;
+  background-image: url("../img/Slider-one.jpg");
 }
 
 .top-left a,
